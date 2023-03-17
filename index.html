@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>buscar contactos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="box_perfiles" id="box_perfiles">
+
+    </div>
+    <div class="box">
+        <h1>BUSCAR CONTACTO</h1>
+        <div class="sub_box">
+            <div class="escribir">
+                <label for="nombre">Nombre</label><input type="text" id="user" >
+                <label for="propiedad"></label>
+                <select  id="propiedades"> 
+                    <option value="elige">Elige</option>
+                    <option value="gustos">Gustos</option>
+                    <option value="numero">Numero</option>
+                    <option value="apellido">Apellido</option>
+                 
+                    
+                </select>
+                <div class="btn">
+                    <button id="buscar">Buscar</button>
+                    <a href="./añadir.html" target="_blank"><button id="aceptar">agregar</button></a> 
+
+                </div>
+            </div>
+            <div class="perfil" id="perfil">
+                <img src="https://thumbs.dreamstime.com/b/perfil-vac%C3%ADo-avatares-icono-de-foto-colores-blanco-y-negro-color-fondo-225261584.jpg" alt="">
+
+            </div>
+        </div>
+        <div id="display"></div>
+    </div>
+    <script  src="./contactos.js" ></script>
+    <script   defer src="./main.js" type="module"></script>
+
+   
+    
+</body>
+</html>
